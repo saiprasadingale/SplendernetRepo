@@ -5,7 +5,7 @@ class ClientModel(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
     company = models.CharField(max_length=50)
-    email_id = models.EmailField()
+    email_id = models.EmailField(unique=True)
     department = models.CharField(max_length=50)
     dateofjoining = models.DateField()
     STATUS_CHOICES = [('onboarded', 'Onboarded'),('not_onboarded', 'Not Onboarded'),]
