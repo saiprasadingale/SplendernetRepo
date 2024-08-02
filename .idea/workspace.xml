@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c80c0f-e049-44ee-bd0a-b2efffd3621a" name="Changes" comment="complited">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientManagementSystem/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ClientManagementSystem/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientManagementSystem/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientManagementSystem/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientManagementSystem/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientManagementSystem/templates/show.html" afterDir="false" />
-    </list>
+    <list default="true" id="d3c80c0f-e049-44ee-bd0a-b2efffd3621a" name="Changes" comment="complited" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722592355111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complited">
+      <option name="closed" value="true" />
+      <created>1722593542623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722593542623</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
