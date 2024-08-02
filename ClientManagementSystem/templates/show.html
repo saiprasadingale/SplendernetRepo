@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client List</title>
+</head>
+<body>
+    <h1>Client List</h1>
+    <a href="{% url 'addurl' %}">Add New Client</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Email</th>
+                <th>Department</th>
+                <th>Status</th>
+                <th>Domain</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for client in obj %}
+                <tr>
+                    <td>{{ client.name }}</td>
+                    <td>{{ client.company }}</td>
+                    <td>{{ client.email_id }}</td>
+                    <td>{{ client.department }}</td>
+                    <td>{{ client.status }}</td>
+                    <td>{{ client.projectdomain }}</td>
+                    <td>
+                        <a href="{% url 'updateurl' client.id %}">Update</a>
+                        <a href="{% url 'deleteurl' client.id %}">Delete</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
